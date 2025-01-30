@@ -13,4 +13,17 @@ fun main(){
     for((index, value) in name.withIndex()){
         println("Index: $index Value: $value")
     }
+
+    val number = intArrayOf(1, 2, 3, 4, 5)
+
+    for(i in number){
+        println(i)
+    }
+
+    val number2 = Array(5, {i -> i*2})
+
+
+    for(i in number2){
+        println(i)
+    }
 }

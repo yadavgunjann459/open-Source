@@ -11,6 +11,8 @@ fun main(){
     println(p2.canVote())
 }
 
+// Arin Yadav - Arin Yadav - Arin Yadav
+
 class Car(val CarName : String, val engine : String, val design : String, val modal : String, var price : String){
     fun allDetails(){
         println(CarName +", " +engine +", " +design +", " +modal +", " +price);
