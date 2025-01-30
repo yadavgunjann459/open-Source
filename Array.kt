@@ -10,7 +10,5 @@ fun main(){
         println(i)
     }
 
-    for((index, value) in name.withIndex()){
-        println("Index: $index Value: $value")
-    }
+    
 }
